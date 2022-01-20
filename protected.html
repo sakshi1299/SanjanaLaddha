@@ -1,0 +1,39 @@
+
+<html>
+    <head>
+        <title>View Project</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image" href="images/logo@300x.png"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./css/login.css">
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
+        <link rel="stylesheet" href="css/navigation.css">
+    </head>
+    <body>
+    <section id="section-projects" >
+    <nav>
+                <ul class="menu">
+                    <li class="logo"> <a href="index.php">  <img id="logo" src="images/logo@300x.png"></a></li>
+                    <li class="item"><a href="index.php" class="now">Work</a></li>
+                    <li class="item "><a href="about.html" >About</a></li>
+                    <li class="item"><a href="archives.php" >Archive</a></li>
+                    <li class="item"><a href="contact.html">Contact</a>
+                    </li>
+                    <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+                </ul>
+            </nav>
+</section>
+  <div class="main">
+    <p class="sign" style="align:center">The project is protected , please contact for password</p>
+    <form class="form1" method="post">
+      <!-- <input class="un " type="text" name="user" style="align:center" placeholder="Username"> -->
+      <input class="pass" type="password" name="pass" style="align:center" id="pass" placeholder="Password">
+      <input type="button" class="submit" style="align:center" value="View " name="submit" onclick="checkPass()">
+    </div>
+</body>
+<script src="js/checkPassword.js"></script>
+</html>

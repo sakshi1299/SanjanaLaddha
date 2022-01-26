@@ -5,7 +5,7 @@ fetch('https://api-ap-south-1.graphcms.com/v2/ckxj28hx22s6901xo4qira60q/master' 
     body : JSON.stringify({
         query : `
         query{
-            projects{
+            projects(orderBy: id__ASC){
                 id_
                 adminLock
                 title

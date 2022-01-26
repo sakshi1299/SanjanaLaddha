@@ -11,9 +11,7 @@ fetch('https://api-ap-south-1.graphcms.com/v2/ckxj28hx22s6901xo4qira60q/master' 
             query MyQuery($id : Int) {
                 project(where: { id_: $id}) {
                    link
-                   caseStudy {
-                     html
-                   }
+                   caseStudy
                    title
                    description
                    image {
@@ -61,7 +59,7 @@ fetch('https://api-ap-south-1.graphcms.com/v2/ckxj28hx22s6901xo4qira60q/master' 
             const div3 = document.createElement('div');
                 div3.classList.add("projectsview");
                 div3.setAttribute("data-aos" , "fade-up");
-                div3.innerHTML = data.data.project.caseStudy.html;
+                div3.innerHTML = data.data.project.caseStudy;
             sect.appendChild(div3);
        
    
